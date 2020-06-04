@@ -32,4 +32,4 @@ jobs:
     - name: Installing Surge
       run: npm install -g surge
     - name: deploying using surge
-      run: surge ./ tutorsprovider.surge.sh --token "9c153671da914168911683d2d4e794ce"
+      run: surge ./ tutorsprovider.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
