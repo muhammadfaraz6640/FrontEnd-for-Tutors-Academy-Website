@@ -3,6 +3,21 @@
     
     justify-content: space-around;
 } */
+.card:hover{
+    -webkit-box-shadow: 6px -7px 51px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px -7px 51px 0px rgba(0,0,0,0.75);
+box-shadow: 6px -7px 51px 0px rgba(0,0,0,0.75);
+}
+.coll:hover{
+    -webkit-box-shadow: 6px -7px 51px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px -7px 51px 0px rgba(0,0,0,0.75);
+box-shadow: 6px -7px 51px 0px rgba(0,0,0,0.75);
+}
+body{
+    background-image: url('Images/home-page.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .coll{
     align-items: center;
     text-align: center;
